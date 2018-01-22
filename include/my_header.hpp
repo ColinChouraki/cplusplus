@@ -10,7 +10,12 @@ double exo1(double rayon)
 	v = 4/3 *3.14 * rayon * rayon * rayon;
 	return v;
 }
+void exo2(short a, short b)
+{
+	short y;
 
+	y = a<b&&!a;
+}
 
 #endif // MY_HEADER_HPP
 
