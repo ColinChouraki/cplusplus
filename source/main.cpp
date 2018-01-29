@@ -11,6 +11,7 @@ int main()
 	exo2(5,10);
 	exo2(0,10);
 	exo2(20,10);
+	exo4(2, 10, 6);
     // Affichage sur un terminal
     std::cout << "Hello World!" << std::endl;
 

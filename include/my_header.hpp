@@ -25,5 +25,14 @@ double exo3(double rayon)
 	aire = 3.14 *pow(rayon, 2.f);
 	return aire;
 }
+double exo4(short c, short d, short e)
+{
+	if (c > e, d)
+		return c;
+	else if (d > e, c)
+		return d;
+	else
+		return e;
+}
 #endif // MY_HEADER_HPP
 
