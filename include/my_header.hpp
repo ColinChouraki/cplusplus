@@ -17,13 +17,12 @@ void exo2(short a, short b)
 {
 	short y;
 
-	y = a<b&&!a;
+	y = a < b && !a;
 }
-
 double exo3(double rayon)
 {
 	double aire;
-	aire = 3.14 *pow(rayon, 02f);
+	aire = 3.14 *pow(rayon, 2.f);
 	return aire;
 }
 #endif // MY_HEADER_HPP
