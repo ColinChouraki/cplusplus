@@ -51,7 +51,40 @@ void exo3(void)
 			z = z + 1;
 		}
 	}
-		
+}
+unsigned short lancer_de(void);
+
+void exo4(void)
+{
+	int x = lancer_de();
+	int point = 0;
+	int joueur1 = 0;
+	int joueur2 = 0;
+	int tour = 0;
+
+	while (joueur1 == 50 && joueur2 == 50)
+	{
+		while (x != 1) {
+			if (x % 2 == 0) {
+				point++;
+			}
+			if (x = 3){
+				point = point * 3;
+			}
+			if (x = 5) {
+				point = 0;
+			}
+		}else{
+
+		if (tour % 2 == 0) {
+			joueur2 = point;
+		}
+		else {
+			joueur1 = 0;
+		}
+
+		}
+	}
 }
 #endif // MY_HEADER_HPP
 
