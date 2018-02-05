@@ -7,4 +7,5 @@
 int main()
 {	
 	exo1();
+	exo2();
 }
