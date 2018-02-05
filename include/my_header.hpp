@@ -5,6 +5,9 @@
 #ifndef MY_HEADER_HPP
 #define MY_HEADER_HPP
 
+#include <time.h>
+#include <stdlib.h>
+
 void exo1(void)
 {
 	long a = 2, b = 1, c = 0;
@@ -30,6 +33,25 @@ void exo2(void)
 	else
 		if (n < 0)
 			fac = 0;
+}
+int essayer_code(unsigned short code)
+{
+	srand(time(NULL));
+	static unsigned short guess = rand() % 10000;
+
+	return (code == guess);
+}
+
+void exo3(void)
+{
+	int z = 0;
+	int x = essayer_code(150);
+	if (x != z) {
+		while (z > 9999) {
+			z = z + 1;
+		}
+	}
+		
 }
 #endif // MY_HEADER_HPP
 
